@@ -1,14 +1,10 @@
 # Weather API Served on Express.js Server
 
-![example1](https://github.com/ben-dh3/weather_api_server/blob/main/images/image1.png?raw=true)
-
 Type the city name of the weather data you want to find in the URL, the WeatherClient class fetches the data from the [OpenWeather API](https://openweathermap.org/api), and is formatted and returned using Express.js.
 
 Made for the purpose of understanding how to fetch and manipulate data from an API, and further my knowledge of building web servers with Express.js
 
 In the future I intend improve the UI.
-
-![example2](https://github.com/ben-dh3/weather_api_server/blob/main/images/image2.png?raw=true)
 
 # How to Run the Project
 
@@ -26,3 +22,10 @@ In the future I intend improve the UI.
   `node server.js`
   
 - Go to `http://localhost:3000/london` to see the weather in London or append a city of your choice!
+
+# Examples
+
+![example1](https://github.com/ben-dh3/weather_api_server/blob/main/images/image1.png?raw=true)
+
+![example2](https://github.com/ben-dh3/weather_api_server/blob/main/images/image2.png?raw=true)
+
