@@ -1,32 +1,28 @@
 # Weather API Served on Express.js Server
 
 ![example1](https://github.com/ben-dh3/weather_api_server/blob/main/images/image1.png?raw=true)
+
+Type the city name of the weather data you want to find in the URL, the WeatherClient class fetches the data from the [OpenWeather API](https://openweathermap.org/api), and is formatted and returned using Express.js.
+
+Made for the purpose of understanding how to fetch and manipulate data from an API, and further my knowledge of building web servers with Express.js
+
+In the future I intend improve the UI.
+
 ![example2](https://github.com/ben-dh3/weather_api_server/blob/main/images/image2.png?raw=true)
-
-Server made using [this](https://bhch.github.io/posts/2017/11/writing-an-http-server-from-scratch/) tutorial as guidance, with added POST request functionality.
-
-Made for the purpose of understanding the HTTP protocol, the HTTP server is built on a TCP server made using Python's socket library. 
-
-In the future I intend to write an article explaining HTTP and TCP and how this server works.
 
 # How to Run the Project
 
-### Make a GET request
+- In your terminal, navigate outside `server.js` and install the `express` package:
 
-- In your terminal, navigate outside the main.py file and run:
+`npm add express`
 
-`python main.py`
-
-- Visit localhost and append the html file name you want to visit:
-
-`http://127.0.0.1:8888/index.html`
-
-### Make a POST request to one of the HTML pages and change the contents of the document.
-
-- First run the server
-
-`python main.py`
-
-- Then make a POST request using curl
-
-`curl -v -X POST http://localhost:8888/index.html`
+- Get an API key from [OpenWeather API](https://openweathermap.org/api) by signing up and creating an account.
+- Copy the API key into a file `apiKey.js` like so:
+  
+  `module.exports = <your API key here>;`
+  
+- Run the server:
+  
+  `node server.js`
+  
+- Go to `http://localhost:3000/london` to see the weather in London or append a city of your choice!
