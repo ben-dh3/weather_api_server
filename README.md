@@ -10,7 +10,7 @@ In the future I intend improve the UI.
 
 - In your terminal, navigate outside `server.js` and install the `express` package:
 
-`npm add express`
+  `npm add express`
 
 - Get an API key from [OpenWeather API](https://openweathermap.org/api) by signing up and creating an account.
 - Copy the API key into a file `apiKey.js` like so:
