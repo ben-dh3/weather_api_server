@@ -1,7 +1,7 @@
 # Weather API Served on Express.js Server
 
-![example1](https://github.com/ben-dh3/weather_api_server/blob/main/image1.png?raw=true)
-![example2](https://github.com/ben-dh3/weather_api_server/blob/main/image2.png?raw=true)
+![example1](https://github.com/ben-dh3/weather_api_server/blob/main/images/image1.png?raw=true)
+![example2](https://github.com/ben-dh3/weather_api_server/blob/main/images/image2.png?raw=true)
 
 Server made using [this](https://bhch.github.io/posts/2017/11/writing-an-http-server-from-scratch/) tutorial as guidance, with added POST request functionality.
 
